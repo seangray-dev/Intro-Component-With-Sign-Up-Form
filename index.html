@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- Link to Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="container">
+
+      <section class="col-1">
+        <h1>Learn to code by<br> watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+      </section>
+
+      <section class="col-2">
+        <div class="box box-accent">
+          <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+      
+        <form action="" class="box" id="form">
+          <div class="form-control">
+            <input type="text" placeholder="First Name" id="firstname"  />
+            <img src="./images/icon-error.svg" alt="">
+            <small></small>
+          </div>
+          <div class="form-control">
+            <input type="text" placeholder="Last Name" id="lastname" />
+            <img src="./images/icon-error.svg" alt="">
+            <small></small>
+          </div>
+          <div class="form-control">
+            <input type="email" placeholder="Email Address" id="email" />
+            <img src="./images/icon-error.svg" alt="">
+            <small></small>
+          </div>
+          <div class="form-control">
+            <input type="password" placeholder="Password" id="password" />
+            <img src="./images/icon-error.svg" alt="">
+            <small></small>
+          </div>
+          <button class="btn--primary-one">Claim your free trial</button>
+          <small>By clicking the button, you are agreeing to our <a href="" class="primary-two">Terms and Services</a></small>
+        </form>
+      
+      </section>
+    </div>
+  </main>
+  
+<script src="./script.js"></script>
+</body>
+</html>
